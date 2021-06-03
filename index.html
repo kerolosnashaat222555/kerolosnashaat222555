@@ -1,0 +1,756 @@
+<!DOCTYPE Html >
+<html lang= "en" dir="ltr" >
+	<head>
+	<meta charset="utf-8">
+		<meta name="description" content="welcome to html">
+		<title>beautiful page </title>
+		<link rel="stylesheet" href="css/normalize.css">
+	<link rel = "stylesheet" href ="css/main.css">
+ <link rel="shortcut icon" href= "images/350_01ade771d1beb4c690c5e92fd9bef470.jpg">	
+	<link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+		
+		<link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" >
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<style>
+			#testimonials{
+				background-color: aqua;
+				margin-left: 40px;
+				margin-right: 40px;
+				margin-bottom: 20px;
+			}
+			#customer-testimonial{
+				padding: 40px 0 ;
+				
+			}
+			.testimonial img {
+			
+				position: relative;
+				left: 450px;
+				border-radius: 50%;
+				border: 1px solid white ;
+				
+			}
+			.testimonial blockquote{
+				border: 0;
+				font-family:tahoma ;
+				font-size: italic ;
+				color: white; 
+				padding: 5px 150px ;
+				position: relative;
+				text-align: center;
+			}
+			.testimonial blockquote:before,
+			.testimonial blockquote:after{
+				font-size: 80px; 
+				font-size: normal ;
+				line-height: 1;
+				width: 30px;
+				height: 30px;
+				position: absolute;}
+			
+			.testimonial blockquote::before {
+				content: "\201c";
+				top: 0;
+				left: 100px;
+			}
+		.testimonial blockquote::after {
+				content: "\201D";
+				bottom: 0;
+				right: 100px;
+			}
+			.testimonial-author p{
+				color: white;
+				font-size: 17px;
+				text-align: center;
+			}
+			.testimonial-author p strong {
+				display: block;
+				
+			}
+			h3{
+				color: white;
+				text-transform: uppercase;
+				text-align: center;
+				padding-top:70px;
+				}
+			
+			.header .slider .intro .middle {
+				position: absolute;
+	top: 50px;
+	left: 200px;
+			padding: 4px;	
+	margin-top: 350px;
+	margin-left: 450px;
+	transform: translate(-50%,-50%);
+			}
+			
+			.header .slider .intro .middle .btn 
+{
+
+ 	position: relative;
+	left: 150px;
+	display: block; 
+	color: white;
+	width: 130px;
+    font-size: 18px;
+	font-family: "montserrat";
+	text-decoration: none;
+	margin: 30px 0;
+	border :2px solid aqua  ;
+	padding: 14px 50px ;
+	
+	overflow: hidden;
+	transition: 1s all ease;
+	top: -60px;
+}
+
+.btn::before{
+	background: aqua;
+	content:"";
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: -1;
+	transition: all 0.6s ease ;
+	}
+.btn1::before{
+	width: 0;
+	height: 100%;
+}
+.btn:hover::before{
+	width: 100%;
+}
+			.my-skills {
+				background-color: chocolate;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			
+			
+.my-skills .skills .modle {
+				position: absolute;
+	
+	
+	transform: translate(-50%,-50%);
+			}  	
+			
+			
+.my-skills .skills .modle .btnn 
+{
+
+ 	position: relative;
+	display: block;
+	color:white;
+	width: 100px;
+    font-size: 14px;
+	font-family: "montserrat";
+	text-decoration: none;
+	margin: 30px 0;
+	border :2px solid aqua  ;
+	padding: 10px 20px ;
+     left: 100px;
+	overflow: hidden;
+	transition: 1s all ease;
+	top:50px;
+	text-align: center;
+}
+
+.btnn::before{
+	background: aqua;
+	content:"";
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: -1;
+	transition: all 0.6s ease ;
+	}
+.btn2::before{
+	width: 0;
+	height: 100%;
+}
+			.btnn:hover::before{
+	width: 100%;
+}
+			
+			
+			.resume {
+				background-color: coral;
+				height: 190px;
+					margin-top: 10px;
+				margin-bottom: 10px;
+			}			
+.resume  .maya {
+				position: absolute;
+	
+	
+margin-top : 20px;
+	
+	transform: translate(-50%,-50%);
+			}  	
+			
+			
+.resume  .maya  .btnl 
+{
+
+ 	position: relative;
+	display: block;
+	color:white;
+	width: 180px;
+    font-size: 14px;
+	font-family: "montserrat";
+	text-decoration: none;
+	margin: 30px 0;
+	border :2px solid aqua  ;
+	padding: 10px 20px ;
+     left: 100px;
+	overflow: hidden;
+	transition: 1s all ease;
+	
+	left: 550px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btnl::before{
+	background: aqua;
+	content:"";
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: -1;
+	transition: all 0.6s ease ;
+	}
+.btn4::before{
+	width: 0;
+	height: 100%;
+}
+			.btnl:hover::before{
+	width: 100%;
+}
+			
+			
+			
+			
+			
+			
+.header .slider .intro .middle .btn 
+{
+
+ 	position: relative;
+	top:-60px;
+	left: 30px;
+	display: block; 
+	color: white;
+	width: 100px;
+    font-size: 14px;
+	font-family: "montserrat";
+	text-decoration: none;
+	margin: 30px 0;
+	border :2px solid aqua  ;
+	padding: 14px 50px ;
+	overflow: hidden;
+	transition: 1s all ease;
+}
+			
+			
+			
+			
+			
+			
+			
+			
+		</style>
+		
+
+
+	</head>
+<body>
+	<div class="header">
+	<div class="slider">
+		<div class="container">
+			<div class="intro">
+		<h2 >Web &amp; Graphic Designer  </h2>
+				<div class="middle">
+		<a href=" " class="btn btn1">Learn More</a> 
+					</div>
+			</div>
+		</div>
+		</div> 
+	<div class="navbar">
+		<div class="container">
+			<h2 class="fl-left">EL<span>BRANS</span></h2>
+		
+			<ul>
+		<li class="active" ><a href ="#"> Home</a> </li>
+		<li><a href ="#abouts-me">About Us</a></li>
+		<li><a href ="#my-skillss">Skills</a> </li>
+		<li><a href ="#resums">Resume </a> </li>
+		<li> <a href ="#testimonials">testemonials </a> </li>
+		<li><a href ="#protfolios">portofolio </a> </li>
+		<li><a href ="#conya">Contact Me</a> </li>
+		
+		</ul>
+		</div>	
+	
+	</div>
+	
+	
+	</div>
+	<div class="features">
+	<div class="container">
+	<div class="feat">
+	<h2> values </h2>
+    <p>lorem  mfm,fvnf k kmf,nnvodm m n,rmnme
+			<br>wkdk f,ekkekfmv </p>
+		</div>
+		<div class="feat">
+	 <h2> Goals </h2>
+			<p>lorem  mfmfv, nf k kmfnnvod, m m nrmnme <br> wkdk fekkekfmv </p>
+		</div>
+		<div class="feat">
+<h2> Hobbies </h2>
+			<p>lorem  mfmfvnf k,kmfnnvodm m nrmnme <br>  wkdk fekkekfmv, </p>
+		</div>
+		</div>
+		</div>
+	<div id="abouts-me">
+	<div class = "about-me ">
+	 <div class="container">
+       <div class = "image ">
+		<img src= "images/350_01ade771d1beb4c690c5e92fd9bef470.jpg" alt="test">
+	   </div>
+	<div class ="info">
+	   <h3>About Me</h3>
+			<p>  shhhhhhhhhhhhh hhdb bdh  mrdmmowowioc n nfdoo md mnmdoslsssssssssssssssssssssssssssshh hhcbb bb bsuusuuu</p>
+			<p> mmvmkkfn n nfnnveiij ie i ej henbcndsj dkdkdkib kiirigroro nmdoslsssssssssssssssssssssssssssshh hhcbb bb bsuusuuu </p>
+		
+	     	<div class="hobbies">
+			<div class="content">
+			<div class="icon">
+       <i class="fa fa-home fa-2x"> </i>
+			</div>
+			<div class="text"> 	
+			<h3>Web Design</h3>
+				<p> shhhhhhhhhhhhh hhdb bdh  mrdmmowowioc amxmm msmm  </p>
+			</div>
+			</div>
+				<div class="content">
+			<div class="icon">
+					<i class="fa fa-suitcase fa-2x "></i>
+			</div>
+			<div class="text"> 	
+			<h3> Graphic Design </h3>
+				<p style="padding-top:-30px; line-height: 2 "> shhhhhhhhhhhhh hhdb bdh  mrdmmowowioc amxmm msmm  </p>
+			</div>
+			</div>
+		<div class="content">
+			<div class="icon">
+				<i class="fa fa-globe fa-2x "></i>	
+			</div>
+			<div class="text"> 	
+			<h3>Marketing </h3>
+				<p> shhhhhhhhhhhhh hhdb bdh  mrdmmowowioc amxmm msmm  </p>
+			</div>
+			</div>
+					<div class="content">
+			<div class="icon">
+				<i class="fa fa-paint-brush fa-2x"></i>
+			</div>
+			<div class="text"> 	
+			<h3>SEO </h3>
+				<p> shhhhhhhhhhhhh hhdb bdh  mrdmmowowioc amxmm msmm  </p>
+			</div>
+			</div>
+				</div>
+	
+	</div>	
+	      </div>	
+		 </div>
+		</div>
+
+        <div id="my-skillss">
+		
+		<div class="my-skills">
+       <div class="container">
+       	<div class="skills">
+		<h2>My Skills </h2>
+		<p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk </p>
+			<p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk </p>
+		    <div class="modle">
+		<a href=" " class="btnn btn2"> Learn More </a> 
+					</div>
+		</div>
+		  <div class="progress">
+		  <div class = "technique">
+			  <h3>html/css</h3>
+			  <div>
+			  <span style ="width: 88%;">88% &nbsp; </span>
+			  
+			  </div>
+			  </div>
+			  <div class = "technique">
+			  <h3>Php/Mysql</h3>
+			  <div>
+			  <span style ="width: 83%;">83% &nbsp; </span>
+			  
+			  </div>
+			  </div>
+			  <div class = "technique">
+			  <h3>Wordpress</h3>
+			  <div>
+			  <span style ="width: 90%;">90% &nbsp; </span>
+			  
+			  </div>
+			  </div>
+			  <div class = "technique">
+			  <h3> Graphic Design</h3>
+			  <div>
+			  <span style ="width:70%;">70% &nbsp; </span>
+			  </div>
+			  </div>
+			  </div>
+			  
+			 </div>
+         </div>
+	</div>	
+	
+	<div id="resums">
+	 <div class="resume">
+	<div class="container">
+		<h2>Resume</h2>
+		<p>  this is very nice project users nnc hs hsh bsb bsicbb bsb nnsjjcn 
+			this is very nice project users nnc hs hsh bsb bsicbb bsb nnsjjcn <br>
+		this is very nice project users nnc hs hsh bsb bsicbb bsb nnsjjcn <br>
+		</p>
+		<div class="maya">
+	<a class="btnl btn4"> Download Resume</a>
+		</div>
+		</div>
+	</div>
+	
+	<div class="my-education">
+       <div class="container">
+       	<div class="main">
+		<h2>My educations </h2>
+		<p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+		lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk 
+			   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk  </p>
+			   
+			   <p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+				   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk </p>
+			   
+		</div>
+		  <div class="Exp">
+			  <div class="certificate">
+			  <h3>Lead Web Designer </h3>
+			  <span> <strong>ABC company Egypt</strong> June 2008</span>
+<span>4.0 GPA </span>
+			  <hr> 
+			  <p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+		lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk 
+			   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk</p>
+		   <p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+		lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk 
+			   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk</p>
+		   </div>
+			  <div class="certificate">
+			  <h3>Junior Designer</h3>
+				  <span><strong>CDE Company</strong> May 2010  </span>
+<span>4.0 GPA </span>
+			  <hr> 
+			  <p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+		lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk 
+			   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk</p>
+		   <p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+		lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk 
+			   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk</p>
+		   </div>
+			   </div>
+		  <div class="clearfix"> </div>
+		   <hr>
+		   <div class="main">
+		<h2> Work Experience </h2>
+		<p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+		lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk 
+			   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk  </p>
+			   
+			   <p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+				   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk </p>
+			   
+		</div>
+		  <div class="Exp">
+			  <div class="certificate">
+			  <h3>lead Web Designer </h3>
+			  <span>Reeves college / June 2008 /May 2010  </span>
+<span>1 Year</span>
+			  <hr> 
+			  <p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+		lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk 
+			   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk</p>
+		   <p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+		lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk 
+			   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk</p>
+		   </div>
+			  <div class="certificate">
+			  <h3>Junior Designer </h3>
+			  <span><strong>CDE COMPANY</strong> May 2010 </span>
+<span>4.0 GPA </span>
+			  <hr> 
+			  <p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+		lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk 
+			   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk</p>
+		   <p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+		lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk 
+			   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk</p>
+			  </div>
+			   <div class="certificate">
+			  <h3>Web Developer </h3>
+				   <span> <strong>My company</strong>May 2010 </span>
+<span>2Year</span>
+			  <hr> 
+			  <p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+		lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk 
+			   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk</p>
+		   <p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+		lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk 
+			   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk</p>
+			  </div>
+			   </div>
+         </div>
+	</div>	</div>
+	
+<section id="testimonials">
+	<div id ="testimonials-cover">
+	<h3 class="text-center">what our customers say ??</h3>
+	<div class="container">
+		<div class="row">
+		<div class="col-md-12">
+			<div id = "customer-testimonial" class="text-center owl-carousel owl-theme ">
+			<div class="testimonial">
+				<img src="man.jpg" class="img-responsive img-circle " alt ="">
+				<blockquote class="text-center">
+				<p>
+					lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+				   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ks
+					</p>
+				</blockquote>
+				<div class="testimonial-author">
+				<p>
+					<strong>Daniel watrosu  </strong>
+					<span>CEP & Founter-Google  </span>
+					</p>
+			       </div>
+				</div>
+			<div class="testimonial">
+				<img  src="p2.jpg" class="img-responsive img-circle " alt ="">
+				<blockquote class="text-center">
+				<p>
+					lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+				   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ks
+					</p>
+				</blockquote>
+				<div class="testimonial-author">
+				<p>
+					<strong>kristina youssef  </strong>
+					<span>CEP & Founter-Google  </span>
+					</p>
+			       </div>
+				</div>
+			
+				
+				
+				<div class="testimonial">
+				<img src="p3.jpg" class="img-responsive img-circle " alt ="">
+				<blockquote class="text-center">
+				<p>
+					lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+				   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ks
+					</p>
+				</blockquote>
+				<div class="testimonial-author">
+				<p>
+					<strong>Daniel watrosu  </strong>
+					<span>CEP & Founter-Google  </span>
+					</p>
+			       </div>
+				</div>
+			<div class="testimonial">
+				<img src="p3.jpg" class="img-responsive img-circle " alt ="">
+				<blockquote class="text-center">
+				<p>
+					lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk
+				   lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ks
+					</p>
+				</blockquote>
+				<div class="testimonial-author">
+				<p>
+					<strong>Daniel watrosu  </strong>
+					<span>CEP & Founter-Google  </span>
+					</p>
+			       </div>
+				</div>
+			
+				
+				
+			
+			</div>
+			
+			
+			
+			
+			</div>
+		</div>
+		
+		</div>
+	
+	</div>
+	
+	
+	</section>	
+	
+
+	
+	<div id = "protfolios">
+	 <div class="protfolio">
+		 <div class="container">
+		<h2> protfolio  </h2>
+		<p>lorem ipsum dolor site amet, ea doming until isiidjcnn bdbdcbcbsbn ksk </p>
+		 <div class="our-work">
+			 <div><img  src="../car1.jpg" alt="" style="height:150px; width: 350px; "></div>
+			   <div><img  src="../car222.jpg" alt="" style="height:150px; width: 350px; "></div>
+ <div><img  src="../projects/images/%D8%A8%D8%B1%D9%85%D8%AC2.jpg" alt="" style="height:150px; width: 350px; "></div>
+			 <div><img  src="../projects/images/%D8%A8%D8%B1%D9%85%D8%AC1.jpg" alt="" style="height:150px; width: 350px; "></div>
+			  <div><img  src="../download.jpg" alt="" style="height:150px; width: 350px; "></div>
+		        <div><img  src="../ser.jpg" alt="" style="height:150px; width: 350px; "></div>
+			  <div><img  src="../aakka.jpg" alt="" style="height:150px; width: 350px; "></div>
+			   <div><img  src="../nana.jpg" alt="" style="height:150px; width: 350px; "></div>
+			  <div><img  src="../snsn.jpg" alt="" style="height:150px; width: 350px; "></div>
+			 </div>
+		</div>
+		  </div> 
+			 
+         </div>
+		<div id="conya">
+	<div class ="contact">
+	<div class="container">
+		<div class="info">
+		<h2>Contact Me </h2>
+		<p>loernsm m mgmmvkkfk mkkfkdk krkdkkdk mnfndjkskmm kfdk 
+			loernsm m mgmmvkkfk mkkfkdk krkdkkdk mnfndjkskmm kfdkloernsm m mgmmvkkfk mkkfkdk krkdkkdk mnfndjkskmm kfdk
+			</p>
+		<p>123 street name <br>
+			cairo <br>
+			sksk A rae
+			
+			</p>
+			<p>
+			<strong>Email : </strong> kkksii @gamail.com<br>
+				<strong>phone : </strong> 015889xx558
+			</p>
+		</div>
+		<div class="form">
+		<label> Name *  </label>
+          <input type= "text" >
+			<label> Email address * </label>
+          <input type= "text" >
+			<label> phone  * </label>
+          <input type= "text" >
+		<label>Your Messsage * </label>
+         <textarea>write your message  </textarea>
+		<input type="submit" value = "contact us">
+		
+		</div>
+		
+		</div>
+	</div>
+	
+	
+	</div>
+	
+	 <div class="footer" style="height:70px;" >
+	<div class="container">
+	<span style="margin-top:-5px; "> Copyright &copy; 2014 Elzero inc. </span>
+		<ul style="margin-top: 5px;margin-bottom: 10px; " ><li><i class="fa fa-facebook fa-2x circle-icon"style=" 
+    background: #3b5998 ;
+			color: white;
+    padding:10px;
+    border-radius: 50%;
+			cursor: pointer;
+"></i>    </li> 
+		    <li><i class="fa fa-youtube fa-2x circle-icon"style=" 
+    background:#c4302b;
+			color:white;
+    padding:5px;
+    border-radius: 50%;
+				cursor: pointer;
+"></i>  </li>
+			  <li> <i class="fa fa-linkedin fa-2x circle-icon"style=" 
+    background:#0e76a8 ;
+			color:white;
+    padding:5px;
+    border-radius: 50%;
+				cursor: pointer;
+"></i></li>
+			<li> <i class="fa fa-google-plus fa-2x circle-icon"style=" 
+    background: #db4a39;
+			color:white;
+    padding:5px;
+    border-radius: 50%;
+				cursor: pointer;
+"></i></li>
+		          </ul> 
+		   </div>
+		 </div>
+	
+	
+	
+	
+	
+	
+	
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+	<script>
+	$(function(){
+		$("#customer-testimonial").owlCarousel({
+		items:1,
+			autoplay: true,
+			smartSpeed: 700,
+			look:true,
+			autoPlayHoverPause:true
+		})
+		
+		
+	})
+	
+	
+	</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+
+
+
+
+
+</html>
